@@ -31,3 +31,5 @@ Abra o site: Execute o arquivo index.html no seu navegador.
 Configure a chave: No campo indicado "API KEY", cole a sua chave gsk_....
 
 Gere seu código: Descreva o elemento desejado e clique em Gerar Código ⚡.
+<img width="983" height="708" alt="image" src="https://github.com/user-attachments/assets/4b7b69a2-1d3b-488f-a102-9db80fd3b916" />
+

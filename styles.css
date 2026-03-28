@@ -1,0 +1,89 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+ font-family: "Inter", sans-serif;
+
+}
+
+body{
+    background: black;
+    color:  white;
+    padding: 40px; /*padding joga os textos para o lado de dentro*/
+    display: flex; /*mostra os itens e quando habilita libera a propiedade de alinhamento */
+    flex-direction: column; /*direciona o sentido do alinhamento, linha ou coluna */
+    align-items: center; /*alinhar os items, lado ou centro */ 
+}
+h1{
+    font-size: 40px; /*tamanho do texto*/
+    color: #fafafa;
+    font-weight: bold; /*grossura da fonte (bold é negrito)*/
+}
+span {
+    color:#22c55e;
+}
+p{
+    margin: 10px;
+    color: #71717a;
+
+}
+textarea{
+    resize: none; /*resize é a redimensão da caixa do textarea, não é possível aumentar ou diminuir*/
+    width: 100%; /*largura do textarea*/
+    max-width: 640px; /* limita o quando irá se expandir na página*/
+    padding: 16px; /* padding é o espaçamento na parte interna do textarea*/
+    border: 1px solid #27272a; 
+    border-radius: 10px;
+    background: #141419;
+    color: #fafafa;
+    outline: none; /*desativa a borda azul ao clicar na caixa*/
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    max-width: 640px; /* limita o quando irá se expandir na página*/
+    background: #22c55e;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 10px; /*margin top significa que irá aplicar a borda de espaço só em cima do button*/
+
+}
+.bloco-codigo{
+    background: #141419;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 14px;
+    color: #34d399;
+    line-height: 2;
+    overflow: auto; 
+    width: 100%;
+    max-width: 450px;
+    max-height: 450px;
+    white-space: pre-wrap;
+}
+.resultado-codigo{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 450px;
+    min-height: 450px;
+    margin: 10px;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    background: #141419;
+}
+
+.resultado{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
